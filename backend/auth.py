@@ -2,13 +2,13 @@ from flask import Flask, redirect, request, session
 from authlib.integrations.flask_client import OAuth
 
 app = Flask(__name__)
-app.secret_key = 'your_secret_key'
+app.secret_key = ''
 oauth = OAuth(app)
 
 auth0 = oauth.register(
     'auth0',
-    client_id='your_client_id',
-    client_secret='your_client_secret',
+    client_id='',
+    client_secret='',
     api_base_url='https://your_domain.auth0.com',
     access_token_url='https://your_domain.auth0.com/oauth/token',
     authorize_url='https://your_domain.auth0.com/authorize',

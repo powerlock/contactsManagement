@@ -6,8 +6,8 @@ app = Flask(__name__)
 #app.secret_key = 'your_secret_key'
 
 # Replace these with your client ID and secret from the Google API console
-GOOGLE_CLIENT_ID = '156285614807-nfb2vpnmvmhurm3eqf3kbml13r816let.apps.googleusercontent.com'
-GOOGLE_CLIENT_SECRET = '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'
+GOOGLE_CLIENT_ID = ''
+GOOGLE_CLIENT_SECRET = ''
 REDIRECT_URI = 'http://localhost:5000/callback'
 
 # Google OAuth endpoints
