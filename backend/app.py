@@ -28,7 +28,7 @@ if st.button("Logout"):
         del st.session_state['user_info']  # Clear user-specific information
         st.experimental_rerun()  # Optional: Rerun the app to refresh the state
 
-
+isAuthenticated = True # temporarily default is true to allow user to log in.
 
 if isAuthenticated:
     st.title('Contact Management System')
