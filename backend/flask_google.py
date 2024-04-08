@@ -3,7 +3,7 @@ import requests
 from urllib.parse import quote,urlencode
 
 app = Flask(__name__)
-#app.secret_key = 'your_secret_key'
+#app.secret_key = ''
 
 # Replace these with your client ID and secret from the Google API console
 GOOGLE_CLIENT_ID = ''
