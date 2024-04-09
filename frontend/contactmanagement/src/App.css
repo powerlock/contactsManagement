@@ -36,3 +36,38 @@
     transform: rotate(360deg);
   }
 }
+.authForm {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.authForm form {
+  display: flex;
+  flex-direction: column;
+}
+
+.authForm input[type="text"],
+.authForm input[type="password"] {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.authForm button {
+  cursor: pointer;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: white;
+}
+
+.authForm button:hover {
+  background-color: #0056b3;
+}
